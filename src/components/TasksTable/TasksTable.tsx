@@ -74,7 +74,7 @@ function TasksTable({ tasks, location }: TableScrollAreaProps) {
 
   return (
     <ScrollArea
-      sx={{ height: 300, marginBottom: 24 }}
+      sx={{ height: 800, marginBottom: 24 }}
       onScrollPositionChange={({ y }) => setScrolled(y !== 0)}
     >
       <Table sx={{ minWidth: 700 }}>
